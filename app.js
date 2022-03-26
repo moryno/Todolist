@@ -10,7 +10,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 //1. connect to mongoDB
-mongoose.connect("mongodb+srv://moryno:8626moryno@cluster0.40pup.mongodb.net/todolistDB");
+mongoose.connect("****");
 //2. create a new Schema
 const itemsSchema = {
     name: {
